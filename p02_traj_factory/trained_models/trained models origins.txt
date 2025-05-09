@@ -1,0 +1,20 @@
+acrobot 142KB
+local
+
+cartpole 138KB
+local
+
+mountaincar 1,078KB
+remote - https://huggingface.co/sb3/dqn-MountainCar-v0/tree/main
+
+taxi 8885KB
+remote - https://huggingface.co/zap-thamm/PPO-Taxi-v3/tree/main
+
+frozenlake 151KB
+remote - https://huggingface.co/clement-w/PPO-FrozenLakeV1-rlclass/tree/main
+
+breakout 13,230KB
+local
+
+Pong 14535KB
+https://huggingface.co/mrm8488/a2c-PongNoFrameskip-v0/tree/main
