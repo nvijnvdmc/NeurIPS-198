@@ -35,7 +35,7 @@ Each environment's bundle includes:
 
 Due to the size of the raw data for **Breakout** and **Pong**:
 - The benchmark results are split into **10 Excel files**, each corresponding to a unique random seed (`1` through `10`).
-- For each Excel file, a **corresponding `.7z` file** is provided, containing **text files with the complete observations and trajectories**.
+- For each Excel file, a **corresponding `.7z` file** is provided, containing text files with the complete observations and trajectories. **Note that those files are big!** To extract them a preactitioner will need **up to 70Gb of free disk space**. We encourage the practitioners to use 7zip's 'test' function on each 7z file before unzipping it.
 - This was necessary because the full-length string representations of trajectories and observations **exceed the character limit of Excel cells**.
 - To use these Excel files, there is a need to implement reading the observations and trajectories for each instance. We believe this is easy to do, so we leave the implementation to the user.
 
